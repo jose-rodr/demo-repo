@@ -1,0 +1,12 @@
+git status
+git add .
+git commit -m "message"
+git config --global user.emal "email"
+git config --global user.name "name"
+start-ssh-agent.cmd
+ssh-keygen -t rsa -b 4096 -C "email"
+ssh-add <private key>
+git push origin main
+git init
+git remote add origin url
+https://youtu.be/RGOj5yH7evk?t=1855
