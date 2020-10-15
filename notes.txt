@@ -8,5 +8,8 @@ ssh-keygen -t rsa -b 4096 -C "email"
 ssh-add <private key>
 git push origin main
 git init
-git remote add origin url
+git remote add origin <url>
 https://youtu.be/RGOj5yH7evk?t=1855
+git checkout -> change between branches
+git checkout -b <name> -> create new branch
+git diff - shows me all the differences between branches.
