@@ -1,15 +1,29 @@
 git status
 git add .
 git commit -m "message"
+Message must be under 50 characters long
 git config --global user.emal "email"
 git config --global user.name "name"
 start-ssh-agent.cmd
 ssh-keygen -t rsa -b 4096 -C "email"
 ssh-add <private key>
-git push origin main
+
 git init
-git remote add origin <url>
-https://youtu.be/RGOj5yH7evk?t=1855
+
+
 git checkout -> change between branches
 git checkout -b <name> -> create new branch
 git diff - shows me all the differences between branches.
+git merge <branch to merge with>
+
+
+git remote add origin <url>
+git push -u origin master
+git pull -u origin master
+
+git pull => git push
+
+
+merge conflict -> when the same lines are changed on both remote and local repository.
+we resolve it by changing the file manually
+then, git push
