@@ -8,7 +8,7 @@ ssh-add <private key>
 3. git commit -m "message"
 Message must be under 50 characters long
 
-
+git branch -> to see branches.
 
 
 
