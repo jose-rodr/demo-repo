@@ -1,13 +1,15 @@
-git status
-git add .
-git commit -m "message"
-Message must be under 50 characters long
 git config --global user.emal "email" / user.name "name"
 start-ssh-agent.cmd
 ssh-keygen -t rsa -b 4096 -C "email"
 ssh-add <private key>
 
-git init
+1. git init
+2. git add .
+3. git commit -m "message"
+Message must be under 50 characters long
+
+
+
 
 
 git checkout -> change between branches
